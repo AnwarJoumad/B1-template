@@ -131,6 +131,10 @@ article h2.open-forever{
 .product:last-of-type{
   margin-right: 0;
 }
+.row{
+  display: flex;
+  flex-direction: row;
+}
 
 .product span{
   display: block;

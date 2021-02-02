@@ -127,7 +127,9 @@ article h2.rides{
 article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
 }
-
+button{
+  cursor: pointer;
+}
 .emphasize h2{
   margin: 0 auto;
   border-left-style: hidden;

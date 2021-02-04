@@ -140,6 +140,9 @@ button{
   padding: 1em;
 
 }
+table td{
+  border: 1px solid black;
+}
 .product{
   margin-right: 1em;
   padding: 1em;
@@ -165,7 +168,12 @@ button{
   max-width: 250px;
   margin: 0 auto;
 }
-
+tr:first-child {
+  border-top: none;
+}
+tr:last-child {
+  border-bottom: none;
+}
 button{
   width: 100%;
   margin-top: 1em;
